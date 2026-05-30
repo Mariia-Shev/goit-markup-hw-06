@@ -1,0 +1,90 @@
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Raleway", sans-serif; */
+main {
+  min-height: 100vh;
+  flex-grow: 1;
+}
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* h1 */
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* h2 */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* h3 */
+.article-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.accent {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+}
