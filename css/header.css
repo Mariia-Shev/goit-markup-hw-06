@@ -28,3 +28,7 @@
   text-transform: uppercase;
   color: #2e2f42;
 }
+.burger-menu-btn {
+  border: none;
+  background-color: transparent;
+}
