@@ -1,32 +1,90 @@
-.features-section {
-  padding: 96px 0;
-}
-.feature-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 72px;
-  /* column-gap: calc((100% - 216px) / 4); */
-}
-.feature-list .article-title {
-  margin-bottom: 8px;
+@media screen and (min-width: 320px) {
+  .features-section {
+    padding: 96px 0;
+  }
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+    /* column-gap: calc((100% - 216px) / 4); */
+  }
+  .icon-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
 
-  font-weight: 700;
-  font-size: 36px;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    /* padding: 24px 100px; */
+    margin-bottom: 8px;
+  }
+  .feature-list .article-title {
+    margin-bottom: 8px;
 
-  /* line-height: 40px; */
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+
+    /* line-height: 40px; */
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+  }
+  .feature-list .text {
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
 }
-.feature-list .text {
-  font-weight: 500;
-  font-size: 16px;
+@media screen and (min-width: 768px) {
+  .feature-list .article-title {
+    text-align: start;
+  }
+  .feature-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .feature-list .list-item {
+    width: 356px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .features-section {
+    padding: 120px 0;
+  }
+  .feature-list {
+    align-items: center;
+    flex-wrap: nowrap;
+    row-gap: 24px;
+  }
+  .icon-container {
+    display: flex;
+  }
+  .feature-list .article-title {
+    font-weight: 500;
+    font-size: 20px;
 
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+    /* line-height: 24px; */
+    line-height: 1.2;
+    text-align: start;
+    margin-bottom: 8px;
+  }
+  .feature-list .text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .feature-list .list-item {
+    width: 264px;
+  }
 }
