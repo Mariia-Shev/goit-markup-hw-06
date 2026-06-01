@@ -84,7 +84,7 @@
       <!-- #region features-section -->
       <section class="features-section" id="features">
         <div class="container">
-          <h2 class="section-title sr-only">Our Features</h2>
+          <h2 class="section-title sr-only">Our features</h2>
           <ul class="feature-list">
             <li class="list-item">
               <div class="icon-container">
@@ -561,19 +561,17 @@
         <div class="footer-subscribe-container">
           <p class="text">Subscribe</p>
           <form class="subscribe-form">
-            <div class="subscribe-input-container">
-              <input
-                class="subscribe-input"
-                type="email"
-                name="subscribe-email"
-                placeholder="E-mail"
-              /><button class="submit-button" type="submit">
-                Subscribe
-                <svg width="24" height="24" fill="#ffffff">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
+            <input
+              class="subscribe-input"
+              type="email"
+              name="subscribe-email"
+              placeholder="E-mail"
+            /><button class="submit-button" type="submit">
+              Subscribe
+              <svg width="24" height="24" fill="#ffffff">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -581,70 +579,73 @@
     <!-- #endregion footer -->
 
     <div class="burger-menu is-open" id="mobile-menu">
-      <button class="close-button" type="button">
-        <svg class="close-icon" width="8" height="8">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
-      <nav class="burger-menu-nav">
-        <ul class="burger-menu-nav-list">
+      <div class="burger-menu-container">
+        <button class="close-button" type="button">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="burger-menu-nav">
+          <ul class="burger-menu-nav-list">
+            <li class="list-item">
+              <!-- HAD ACTIVE-LINK CLASS BEFORE -->
+              <a class="menu-nav-link current" href="">Studio</a>
+            </li>
+            <li class="list-item">
+              <a class="menu-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="list-item">
+              <a class="menu-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="burger-menu-address">
+          <ul class="burger-menu-address-list">
+            <li class="list-item">
+              <!-- CHECK HREF -->
+              <a class="menu-address-link current" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="list-item">
+              <!-- CHECK HREF -->
+              <a class="menu-address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-socials-list">
           <li class="list-item">
-            <a class="menu-nav-link active-link" href="">Studio</a>
+            <a class="social-link" href="">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
           <li class="list-item">
-            <a class="menu-nav-link" href="">Portfolio</a>
+            <a class="social-link" href="">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
           </li>
           <li class="list-item">
-            <a class="menu-nav-link" href="">Contacts</a>
+            <a class="social-link" href="">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="social-link" href="">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-      </nav>
-
-      <address class="burger-menu-address">
-        <ul class="burger-menu-address-link">
-          <li class="list-item">
-            <!-- CHECK HREF -->
-            <a class="menu-address-link" href="tel:+110001111111"></a>+11 (000)
-            111-11-11
-          </li>
-          <li class="list-item">
-            <!-- CHECK HREF -->
-            <a class="menu-address-link" href="mailto:info@devstudio.com"></a
-            >info@devstudio.com
-          </li>
-        </ul>
-      </address>
-
-      <ul class="menu-socials-list">
-        <li class="list-item">
-          <a class="social-link" href="">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="list-item">
-          <a class="social-link" href="">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="list-item">
-          <a class="social-link" href="">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="list-item">
-          <a class="social-link" href="">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+      </div>
     </div>
 
     <div class="backdrop is-open" id="modal">
